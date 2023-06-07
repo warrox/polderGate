@@ -13,3 +13,5 @@ class MyApp(App):
 
 if __name__ == '__main__':
     MyApp().run()
+
+    #/Users/warren/Pictures/Photos Library.photoslibrary/originals
