@@ -13,7 +13,7 @@ def add_path_pictures():
             return picture_choosed
 
         if a == "y":
-            add_path_pictures()
+            return add_path_pictures()
         else:
             break
 

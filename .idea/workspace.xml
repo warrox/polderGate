@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="import_image(function to compress images)">
-      <change afterPath="$PROJECT_DIR$/add_photos.py" afterDir="false" />
+    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="add_photos(function to paste the path)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/import_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/import_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_photos.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_photos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686167011420</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add_photos(function to paste the path)">
+      <created>1686253263112</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253263112</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +135,7 @@
     <MESSAGE value="(Kivy basic script)" />
     <MESSAGE value="import(Pillow library)" />
     <MESSAGE value="import_image(function to compress images)" />
-    <option name="LAST_COMMIT_MESSAGE" value="import_image(function to compress images)" />
+    <MESSAGE value="add_photos(function to paste the path)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_photos(function to paste the path)" />
   </component>
 </project>
