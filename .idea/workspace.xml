@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="import(Pillow library)">
-      <change afterPath="$PROJECT_DIR$/import_image.py" afterDir="false" />
+    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="import_image(function to compress images)">
+      <change afterPath="$PROJECT_DIR$/add_photos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/import_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/import_image.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686164237141</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="import_image(function to compress images)">
+      <created>1686167011420</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686167011420</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +128,7 @@
     <MESSAGE value="(Hello world)" />
     <MESSAGE value="(Kivy basic script)" />
     <MESSAGE value="import(Pillow library)" />
-    <option name="LAST_COMMIT_MESSAGE" value="import(Pillow library)" />
+    <MESSAGE value="import_image(function to compress images)" />
+    <option name="LAST_COMMIT_MESSAGE" value="import_image(function to compress images)" />
   </component>
 </project>
