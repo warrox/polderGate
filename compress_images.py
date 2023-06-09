@@ -1,4 +1,5 @@
 from PIL import Image, ImageOps
+import os.path
 
 def downsize_images(pic):
     l = 0
@@ -7,7 +8,7 @@ def downsize_images(pic):
         fixed_image = ImageOps.exif_transpose(t)
         # downsize the image with an ANTIALIAS filter (gives the highest quality)
         fixed_image.thumbnail((300,300),Image.LANCZOS)
-        fixed_image.save(f'/Users/warren/Downloads/image_scaled{str(l)}.jpeg', quality=95)
+        fixed_image.save(f'/Users/warren/PolderGate/image_scaled{str(l)}.jpeg', quality=95)
         l += 1
         #picture += 1
         if picture == len(pic):

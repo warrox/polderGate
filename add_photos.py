@@ -1,7 +1,7 @@
-import import_image
+import compress_images
+
 
 picture_choosed = []
-
 
 def add_path_pictures():
     while True:
@@ -17,6 +17,4 @@ def add_path_pictures():
         else:
             break
 
-p = add_path_pictures()
-import_image.downsize_images(p)
-#quand choix y joue la boucle  add_path_pictures() 2 fois meme si on dit non par la suite.
+

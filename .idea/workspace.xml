@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="add_photos(function to paste the path)">
+    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="add_photos(bug fix)">
+      <change afterPath="$PROJECT_DIR$/kivy_template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add_photos.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_photos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/import_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/compress_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="kivy_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="polderGate" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,7 +51,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kivy_template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686253263112</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add_photos(bug fix)">
+      <created>1686254396979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686254396979</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +146,7 @@
     <MESSAGE value="import(Pillow library)" />
     <MESSAGE value="import_image(function to compress images)" />
     <MESSAGE value="add_photos(function to paste the path)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_photos(function to paste the path)" />
+    <MESSAGE value="add_photos(bug fix)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_photos(bug fix)" />
   </component>
 </project>

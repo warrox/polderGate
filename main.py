@@ -1,17 +1,24 @@
-import kivy
-kivy.require('2.2.0') # replace with your current kivy version !
+# Created by Warren Hamdi
+#         06/09/23
+#        PolderGate
+import os
 
-from kivy.app import App
-from kivy.uix.label import Label
+import add_photos
+import compress_images
+
+def start_program():
+    p = add_photos.add_path_pictures()
+    compress_images.downsize_images(p)
+parent_dir = "/Users/warren/"
+directory = "PolderGate"
+path = os.path.join(parent_dir, directory)
+
+if os.path.exists(path):
+   start_program()
+else:
+    os.mkdir(path)
+    print("Directory '% s' created" % directory)
+    start_program()
 
 
-class MyApp(App):
 
-    def build(self):
-        return Label(text='Hello world')
-
-
-if __name__ == '__main__':
-    MyApp().run()
-
-    #/Users/warren/Pictures/Photos Library.photoslibrary/originals
