@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="add_photos(bug fix)">
-      <change afterPath="$PROJECT_DIR$/kivy_template.py" afterDir="false" />
+    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="main(creating a directory with a path)">
+      <change afterPath="$PROJECT_DIR$/copy_path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_photos.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_photos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/import_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/compress_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compress_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/compress_images.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686254396979</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="main(creating a directory with a path)">
+      <created>1686299467603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686299467603</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +153,18 @@
     <MESSAGE value="import_image(function to compress images)" />
     <MESSAGE value="add_photos(function to paste the path)" />
     <MESSAGE value="add_photos(bug fix)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_photos(bug fix)" />
+    <MESSAGE value="main(creating a directory with a path)" />
+    <option name="LAST_COMMIT_MESSAGE" value="main(creating a directory with a path)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/compress_images.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
