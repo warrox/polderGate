@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="compress_images.py(correction of the saving path)">
+    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="add_photos(Debugging all_directory_files)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add_photos.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_photos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/copy_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_path.py" afterDir="false" />
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686302191554</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add_photos(Debugging all_directory_files)">
+      <created>1686318062197</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686318062197</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +169,7 @@
     <MESSAGE value="add_photos(bug fix)" />
     <MESSAGE value="main(creating a directory with a path)" />
     <MESSAGE value="compress_images.py(adding pillow_heif to convert .heif to jpeg)" />
-    <option name="LAST_COMMIT_MESSAGE" value="compress_images.py(adding pillow_heif to convert .heif to jpeg)" />
+    <MESSAGE value="add_photos(Debugging all_directory_files)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_photos(Debugging all_directory_files)" />
   </component>
 </project>

@@ -8,9 +8,9 @@ import compress_images
 
 
 def start_program():
-    p = add_photos.add_path_pictures()
-   # compress_images.downsize_images(p)
-
+    t, a = add_photos.add_path_pictures()
+    w = add_photos.sort_files(t, a)
+    print(w)
 
 parent_dir = os.path.expanduser('~')
 directory = "PolderGate"
