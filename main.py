@@ -9,7 +9,7 @@ import compress_images
 
 def start_program():
     p = add_photos.add_path_pictures()
-    compress_images.downsize_images(p)
+   # compress_images.downsize_images(p)
 
 
 parent_dir = os.path.expanduser('~')
@@ -18,6 +18,7 @@ path = os.path.join(parent_dir, directory)
 
 if os.path.exists(path):
     start_program()
+
 else:
     os.mkdir(path)
     print("Directory '% s' created" % directory)
