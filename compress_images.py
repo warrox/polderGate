@@ -4,13 +4,13 @@ import os.path
 
 def downsize_images(file_path):
     l = 0
+    #loop for to convert all the images path stock in the list
     for picture in range(0, len(file_path)):
-        register_heif_opener()
+        register_heif_opener()  # .Heic reader function
         t = Image.open((file_path[picture]))  # My image is a 200x374 jpeg that is 102kb large
         fixed_image = ImageOps.exif_transpose(t)
-        # downsize the image with an ANTIALIAS filter (gives the highest quality)
-        fixed_image.thumbnail((300,300),Image.LANCZOS)
-        fixed_image.save(f'/Users/warren/PolderGate/image_scaled{str(l)}.jpeg', quality=95)
+        fixed_image.thumbnail((300,300),Image.LANCZOS)  # downsize the image with an Lanczos filter
+        fixed_image.save(f'{os.path.expanduser("~")}/PolderGate/image_scaled{str(l)}.jpeg', quality=95)
         l += 1
         #picture += 1
         if picture == len(file_path):
