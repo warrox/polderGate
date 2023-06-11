@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="add_photos(Debugging all_directory_files)">
+    <list default="true" id="e9de1520-6878-47e5-a0eb-e1685ea551da" name="Changes" comment="add_photos.py(Debugging sort_files)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add_photos.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_photos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686318062197</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add_photos.py(Debugging sort_files)">
+      <created>1686340373199</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686340373199</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +175,18 @@
     <MESSAGE value="main(creating a directory with a path)" />
     <MESSAGE value="compress_images.py(adding pillow_heif to convert .heif to jpeg)" />
     <MESSAGE value="add_photos(Debugging all_directory_files)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_photos(Debugging all_directory_files)" />
+    <MESSAGE value="add_photos.py(Debugging sort_files)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_photos.py(Debugging sort_files)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/add_photos.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

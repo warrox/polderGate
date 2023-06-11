@@ -2,7 +2,7 @@ import compress_images
 import os
 
 all_directory_files = []
-adf = []
+adf = [] #retirer puis commit
 
 
 def add_path_pictures():
@@ -26,16 +26,14 @@ def get_immediate_subdirectories(a_dir):
 
 def sort_files(sub_list, uc):
     lenght_sub = 0
+    max_occurence = 0
     e = 0
-    for i in sub_list:
-        file = os.listdir(uc + "/" + i)  # sort by .JPEG,HEIC,PNG & remove video format
-        lenght_sub += 1
 
-        check = file[e]
-        if check.endswith(".png") or check.endswith(".heic") or check.endswith(".jpg"):
-            all_directory_files.append(check)
-        elif check.endswith(".mov"):
-            continue
-        if lenght_sub == len(sub_list):
-            e += 1
+    for i in sub_list:
+        file = os.listdir(uc + "/" + i)  # orginal/9
+        for x in file:
+            if x.endswith(".png") or x.endswith(".heic") or x.endswith(".jpg"):
+                all_directory_files.append(x)
+            elif x.endswith(".mov"):
+                continue
     return all_directory_files
