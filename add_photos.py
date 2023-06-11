@@ -28,12 +28,14 @@ def sort_files(sub_list, uc):
     lenght_sub = 0
     max_occurence = 0
     e = 0
+    y = 0
 
     for i in sub_list:
         file = os.listdir(uc + "/" + i)  # orginal/9
+
         for x in file:
             if x.endswith(".png") or x.endswith(".heic") or x.endswith(".jpg"):
-                all_directory_files.append(x)
+                all_directory_files.append(str(uc) + "/" + i + "/" + str(x)) #str(sub_list[y])
             elif x.endswith(".mov"):
                 continue
     return all_directory_files

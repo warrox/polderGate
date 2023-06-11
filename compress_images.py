@@ -10,7 +10,7 @@ def downsize_images(file_path):
         t = Image.open((file_path[picture]))  # My image is a 200x374 jpeg that is 102kb large
         fixed_image = ImageOps.exif_transpose(t)
         fixed_image.thumbnail((300,300),Image.LANCZOS)  # downsize the image with an Lanczos filter
-        fixed_image.save(f'{os.path.expanduser("~")}/PolderGate/image_scaled{str(l)}.jpeg', quality=95)
+        fixed_image.save(f'{os.path.expanduser("~")}/PolderGate/image_scaled{str(l)}.png', quality=95)
         l += 1
         #picture += 1
         if picture == len(file_path):
