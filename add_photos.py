@@ -7,12 +7,12 @@ adf = [] #retirer puis commit
 
 def add_path_pictures():
     while True:
-        user_choice = input("Choose picture(s) to downsize, add the repository adress")
-        subdirectories = get_immediate_subdirectories(user_choice)
+        root = input("Choose picture(s) to downsize, add the repository adress")
+        subdirectories = get_immediate_subdirectories(root)
         re_add = input("Would you like to add more pictures ? (y) or (n)")
 
         if re_add == "n":
-            return subdirectories, user_choice
+            return subdirectories, root
         if re_add == "y":
             return add_path_pictures()
         else:
@@ -25,17 +25,13 @@ def get_immediate_subdirectories(a_dir):
 
 
 def sort_files(sub_list, uc):
-    lenght_sub = 0
-    max_occurence = 0
-    e = 0
-    y = 0
 
     for i in sub_list:
         file = os.listdir(uc + "/" + i)  # orginal/9
 
-        for x in file:
-            if x.endswith(".png") or x.endswith(".heic") or x.endswith(".jpg"):
-                all_directory_files.append(str(uc) + "/" + i + "/" + str(x)) #str(sub_list[y])
-            elif x.endswith(".mov"):
+        for e in file:  # element in file
+            if e.endswith(".png") or e.endswith(".heic") or e.endswith(".jpg"):
+                all_directory_files.append(str(uc) + "/" + i + "/" + str(e))
+            elif e.endswith(".mov"):
                 continue
     return all_directory_files

@@ -8,12 +8,12 @@ import compress_images
 
 
 def start_program():
-    t, a = add_photos.add_path_pictures()
-    w = add_photos.sort_files(t, a)
-   # compress_images.downsize_images(w)
-    compress_images.downsize_images(w)
-    # w = list de toutes les photos en direct
+    subdirectory, root = add_photos.add_path_pictures()
+    sorted_list = add_photos.sort_files(subdirectory, root)
+    compress_images.downsize_images(sorted_list)
 
+
+# Create a new folder if first launch or start directly the program
 parent_dir = os.path.expanduser('~')
 directory = "PolderGate"
 path = os.path.join(parent_dir, directory)
